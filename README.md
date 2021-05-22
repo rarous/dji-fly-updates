@@ -14,4 +14,12 @@ it will send notification e-mail with link to donwload new APK file. It also sen
 }
 ```
 
-To run this actor you'll need postmark.com account, to get your `postmarkToken`.
+To run this actor you'll need [postmark.com](https://www.postmark.com) account, to get your `postmarkToken`.
+You'll also need account on [Apify](https://apify.com), to schedule Actor runs.
+
+You can run this actor locally:
+
+```bash
+yarn install
+yarn run apify --purge
+```
