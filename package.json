@@ -1,0 +1,21 @@
+{
+  "name": "dji-fly-updates",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "repository": "https://github.com/rarous/dji-fly-updates",
+  "author": "Aleš Roubíček <ales@roubicek.name>",
+  "license": "MIT",
+  "dependencies": {
+    "apify": "^1.2.1",
+    "linkedom": "^0.8.0",
+    "node-fetch": "^2.6.1",
+    "postmark": "^2.7.4"
+  },
+  "devDependencies": {
+    "apify-cli": "^0.6.2",
+    "prettier": "^2.3.0"
+  },
+  "scripts": {
+    "start": "node ./index.mjs"
+  }
+}

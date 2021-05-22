@@ -35,6 +35,8 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+.yarn/
+!.yarn/releases/
 
 # TypeScript v1 declaration files
 typings/
@@ -74,3 +76,7 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+.idea/
+
+apify_storage
